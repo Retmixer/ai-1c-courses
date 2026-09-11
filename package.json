@@ -1,0 +1,12 @@
+{
+  "name": "pacesetter-school",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check dist/app.js && node --check netlify/functions/auth.mjs && node --check netlify/functions/catalog.mjs"
+  },
+  "dependencies": {
+    "@netlify/blobs": "11.0.3"
+  }
+}
